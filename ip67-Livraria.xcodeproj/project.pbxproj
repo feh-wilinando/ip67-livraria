@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58B4F5C41E874BBF00ED62A4 /* AutorClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B4F5C31E874BBF00ED62A4 /* AutorClientTest.swift */; };
+		58B4F5C51E874D1300ED62A4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD11031E87413300D8E0C9 /* SwiftyJSON.framework */; };
+		58B4F5C61E874D1300ED62A4 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD11031E87413300D8E0C9 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		58B4F5C71E874D1300ED62A4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FD1E873F5E00D8E0C9 /* Alamofire.framework */; };
+		58B4F5C81E874D1300ED62A4 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FD1E873F5E00D8E0C9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		58B4F5C91E874D1300ED62A4 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FE1E873F5E00D8E0C9 /* AlamofireObjectMapper.framework */; };
+		58B4F5CA1E874D1300ED62A4 /* AlamofireObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FE1E873F5E00D8E0C9 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		58B4F5CB1E874D1300ED62A4 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FF1E873F5E00D8E0C9 /* ObjectMapper.framework */; };
+		58B4F5CC1E874D1300ED62A4 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FF1E873F5E00D8E0C9 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		58B4F5CF1E8751BE00ED62A4 /* Autores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B4F5CE1E8751BE00ED62A4 /* Autores.swift */; };
+		58B4F5D11E87547B00ED62A4 /* Livro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B4F5D01E87547B00ED62A4 /* Livro.swift */; };
+		58B4F5D31E87551400ED62A4 /* LivroClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B4F5D21E87551400ED62A4 /* LivroClient.swift */; };
+		58B4F5D71E8758AB00ED62A4 /* LivroClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B4F5D61E8758AB00ED62A4 /* LivroClientTest.swift */; };
 		58CD10E81E87379B00D8E0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD10E71E87379B00D8E0C9 /* AppDelegate.swift */; };
-		58CD10EA1E87379B00D8E0C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD10E91E87379B00D8E0C9 /* ViewController.swift */; };
 		58CD10ED1E87379B00D8E0C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CD10EB1E87379B00D8E0C9 /* Main.storyboard */; };
 		58CD10EF1E87379B00D8E0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD10EE1E87379B00D8E0C9 /* Assets.xcassets */; };
 		58CD10F21E87379B00D8E0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CD10F01E87379B00D8E0C9 /* LaunchScreen.storyboard */; };
 		58CD10FA1E8738BA00D8E0C9 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 58CD10F91E8738BA00D8E0C9 /* Cartfile */; };
-		58CD11001E873F5E00D8E0C9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FD1E873F5E00D8E0C9 /* Alamofire.framework */; };
-		58CD11011E873F5E00D8E0C9 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FE1E873F5E00D8E0C9 /* AlamofireObjectMapper.framework */; };
-		58CD11021E873F5E00D8E0C9 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FF1E873F5E00D8E0C9 /* ObjectMapper.framework */; };
+		58CD111C1E87434300D8E0C9 /* Autor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD111B1E87434300D8E0C9 /* Autor.swift */; };
+		58CD11201E87459F00D8E0C9 /* AutorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD111F1E87459F00D8E0C9 /* AutorClient.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		58CD11141E8741E800D8E0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58CD10DC1E87379A00D8E0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CD10E31E87379A00D8E0C9;
+			remoteInfo = "ip67-Livraria";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B4F5CD1E874D1300ED62A4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				58B4F5C61E874D1300ED62A4 /* SwiftyJSON.framework in Embed Frameworks */,
+				58B4F5CA1E874D1300ED62A4 /* AlamofireObjectMapper.framework in Embed Frameworks */,
+				58B4F5CC1E874D1300ED62A4 /* ObjectMapper.framework in Embed Frameworks */,
+				58B4F5C81E874D1300ED62A4 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		58B4F5C31E874BBF00ED62A4 /* AutorClientTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutorClientTest.swift; sourceTree = "<group>"; };
+		58B4F5CE1E8751BE00ED62A4 /* Autores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Autores.swift; path = model/Autores.swift; sourceTree = "<group>"; };
+		58B4F5D01E87547B00ED62A4 /* Livro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Livro.swift; path = model/Livro.swift; sourceTree = "<group>"; };
+		58B4F5D21E87551400ED62A4 /* LivroClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LivroClient.swift; path = rest/LivroClient.swift; sourceTree = "<group>"; };
+		58B4F5D61E8758AB00ED62A4 /* LivroClientTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivroClientTest.swift; sourceTree = "<group>"; };
 		58CD10E41E87379B00D8E0C9 /* ip67-Livraria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ip67-Livraria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CD10E71E87379B00D8E0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58CD10E91E87379B00D8E0C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58CD10EC1E87379B00D8E0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58CD10EE1E87379B00D8E0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58CD10F11E87379B00D8E0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +72,11 @@
 		58CD10FD1E873F5E00D8E0C9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		58CD10FE1E873F5E00D8E0C9 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
 		58CD10FF1E873F5E00D8E0C9 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		58CD11031E87413300D8E0C9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		58CD110F1E8741E800D8E0C9 /* ip67-LivrariaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ip67-LivrariaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CD11131E8741E800D8E0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58CD111B1E87434300D8E0C9 /* Autor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Autor.swift; path = model/Autor.swift; sourceTree = "<group>"; };
+		58CD111F1E87459F00D8E0C9 /* AutorClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutorClient.swift; path = rest/AutorClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +84,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58CD11001E873F5E00D8E0C9 /* Alamofire.framework in Frameworks */,
-				58CD11011E873F5E00D8E0C9 /* AlamofireObjectMapper.framework in Frameworks */,
-				58CD11021E873F5E00D8E0C9 /* ObjectMapper.framework in Frameworks */,
+				58B4F5C51E874D1300ED62A4 /* SwiftyJSON.framework in Frameworks */,
+				58B4F5C91E874D1300ED62A4 /* AlamofireObjectMapper.framework in Frameworks */,
+				58B4F5CB1E874D1300ED62A4 /* ObjectMapper.framework in Frameworks */,
+				58B4F5C71E874D1300ED62A4 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CD110C1E8741E800D8E0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +106,7 @@
 			children = (
 				58CD10F91E8738BA00D8E0C9 /* Cartfile */,
 				58CD10E61E87379B00D8E0C9 /* ip67-Livraria */,
+				58CD11101E8741E800D8E0C9 /* ip67-LivrariaTests */,
 				58CD10E51E87379B00D8E0C9 /* Products */,
 				58CD10FC1E873F5E00D8E0C9 /* Frameworks */,
 			);
@@ -60,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				58CD10E41E87379B00D8E0C9 /* ip67-Livraria.app */,
+				58CD110F1E8741E800D8E0C9 /* ip67-LivrariaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,8 +124,9 @@
 		58CD10E61E87379B00D8E0C9 /* ip67-Livraria */ = {
 			isa = PBXGroup;
 			children = (
+				58CD111E1E87458900D8E0C9 /* rest */,
+				58CD111D1E87457B00D8E0C9 /* model */,
 				58CD10E71E87379B00D8E0C9 /* AppDelegate.swift */,
-				58CD10E91E87379B00D8E0C9 /* ViewController.swift */,
 				58CD10EB1E87379B00D8E0C9 /* Main.storyboard */,
 				58CD10EE1E87379B00D8E0C9 /* Assets.xcassets */,
 				58CD10F01E87379B00D8E0C9 /* LaunchScreen.storyboard */,
@@ -80,11 +138,41 @@
 		58CD10FC1E873F5E00D8E0C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				58CD11031E87413300D8E0C9 /* SwiftyJSON.framework */,
 				58CD10FD1E873F5E00D8E0C9 /* Alamofire.framework */,
 				58CD10FE1E873F5E00D8E0C9 /* AlamofireObjectMapper.framework */,
 				58CD10FF1E873F5E00D8E0C9 /* ObjectMapper.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58CD11101E8741E800D8E0C9 /* ip67-LivrariaTests */ = {
+			isa = PBXGroup;
+			children = (
+				58B4F5D61E8758AB00ED62A4 /* LivroClientTest.swift */,
+				58B4F5C31E874BBF00ED62A4 /* AutorClientTest.swift */,
+				58CD11131E8741E800D8E0C9 /* Info.plist */,
+			);
+			path = "ip67-LivrariaTests";
+			sourceTree = "<group>";
+		};
+		58CD111D1E87457B00D8E0C9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				58CD111B1E87434300D8E0C9 /* Autor.swift */,
+				58B4F5CE1E8751BE00ED62A4 /* Autores.swift */,
+				58B4F5D01E87547B00ED62A4 /* Livro.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		58CD111E1E87458900D8E0C9 /* rest */ = {
+			isa = PBXGroup;
+			children = (
+				58CD111F1E87459F00D8E0C9 /* AutorClient.swift */,
+				58B4F5D21E87551400ED62A4 /* LivroClient.swift */,
+			);
+			name = rest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +185,7 @@
 				58CD10E01E87379A00D8E0C9 /* Sources */,
 				58CD10E11E87379A00D8E0C9 /* Frameworks */,
 				58CD10E21E87379A00D8E0C9 /* Resources */,
+				58B4F5CD1E874D1300ED62A4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -106,6 +195,24 @@
 			productName = "ip67-Livraria";
 			productReference = 58CD10E41E87379B00D8E0C9 /* ip67-Livraria.app */;
 			productType = "com.apple.product-type.application";
+		};
+		58CD110E1E8741E800D8E0C9 /* ip67-LivrariaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58CD11161E8741E800D8E0C9 /* Build configuration list for PBXNativeTarget "ip67-LivrariaTests" */;
+			buildPhases = (
+				58CD110B1E8741E800D8E0C9 /* Sources */,
+				58CD110C1E8741E800D8E0C9 /* Frameworks */,
+				58CD110D1E8741E800D8E0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58CD11151E8741E800D8E0C9 /* PBXTargetDependency */,
+			);
+			name = "ip67-LivrariaTests";
+			productName = "ip67-LivrariaTests";
+			productReference = 58CD110F1E8741E800D8E0C9 /* ip67-LivrariaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -121,6 +228,12 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = K7WGQE7296;
 						ProvisioningStyle = Automatic;
+					};
+					58CD110E1E8741E800D8E0C9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K7WGQE7296;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58CD10E31E87379A00D8E0C9;
 					};
 				};
 			};
@@ -138,6 +251,7 @@
 			projectRoot = "";
 			targets = (
 				58CD10E31E87379A00D8E0C9 /* ip67-Livraria */,
+				58CD110E1E8741E800D8E0C9 /* ip67-LivrariaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +268,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		58CD110D1E8741E800D8E0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -161,12 +282,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58CD10EA1E87379B00D8E0C9 /* ViewController.swift in Sources */,
+				58CD11201E87459F00D8E0C9 /* AutorClient.swift in Sources */,
 				58CD10E81E87379B00D8E0C9 /* AppDelegate.swift in Sources */,
+				58CD111C1E87434300D8E0C9 /* Autor.swift in Sources */,
+				58B4F5D31E87551400ED62A4 /* LivroClient.swift in Sources */,
+				58B4F5CF1E8751BE00ED62A4 /* Autores.swift in Sources */,
+				58B4F5D11E87547B00ED62A4 /* Livro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CD110B1E8741E800D8E0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B4F5C41E874BBF00ED62A4 /* AutorClientTest.swift in Sources */,
+				58B4F5D71E8758AB00ED62A4 /* LivroClientTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58CD11151E8741E800D8E0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58CD10E31E87379A00D8E0C9 /* ip67-Livraria */;
+			targetProxy = 58CD11141E8741E800D8E0C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		58CD10EB1E87379B00D8E0C9 /* Main.storyboard */ = {
@@ -315,6 +457,34 @@
 			};
 			name = Release;
 		};
+		58CD11171E8741E800D8E0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K7WGQE7296;
+				INFOPLIST_FILE = "ip67-LivrariaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.ip67-LivrariaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ip67-Livraria.app/ip67-Livraria";
+			};
+			name = Debug;
+		};
+		58CD11181E8741E800D8E0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K7WGQE7296;
+				INFOPLIST_FILE = "ip67-LivrariaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.ip67-LivrariaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ip67-Livraria.app/ip67-Livraria";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +504,16 @@
 				58CD10F81E87379B00D8E0C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58CD11161E8741E800D8E0C9 /* Build configuration list for PBXNativeTarget "ip67-LivrariaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CD11171E8741E800D8E0C9 /* Debug */,
+				58CD11181E8741E800D8E0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
