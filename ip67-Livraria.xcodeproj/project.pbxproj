@@ -12,6 +12,10 @@
 		58CD10ED1E87379B00D8E0C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CD10EB1E87379B00D8E0C9 /* Main.storyboard */; };
 		58CD10EF1E87379B00D8E0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD10EE1E87379B00D8E0C9 /* Assets.xcassets */; };
 		58CD10F21E87379B00D8E0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CD10F01E87379B00D8E0C9 /* LaunchScreen.storyboard */; };
+		58CD10FA1E8738BA00D8E0C9 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 58CD10F91E8738BA00D8E0C9 /* Cartfile */; };
+		58CD11001E873F5E00D8E0C9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FD1E873F5E00D8E0C9 /* Alamofire.framework */; };
+		58CD11011E873F5E00D8E0C9 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FE1E873F5E00D8E0C9 /* AlamofireObjectMapper.framework */; };
+		58CD11021E873F5E00D8E0C9 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CD10FF1E873F5E00D8E0C9 /* ObjectMapper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		58CD10EE1E87379B00D8E0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58CD10F11E87379B00D8E0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58CD10F31E87379B00D8E0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58CD10F91E8738BA00D8E0C9 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		58CD10FD1E873F5E00D8E0C9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		58CD10FE1E873F5E00D8E0C9 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		58CD10FF1E873F5E00D8E0C9 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58CD11001E873F5E00D8E0C9 /* Alamofire.framework in Frameworks */,
+				58CD11011E873F5E00D8E0C9 /* AlamofireObjectMapper.framework in Frameworks */,
+				58CD11021E873F5E00D8E0C9 /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +49,10 @@
 		58CD10DB1E87379A00D8E0C9 = {
 			isa = PBXGroup;
 			children = (
+				58CD10F91E8738BA00D8E0C9 /* Cartfile */,
 				58CD10E61E87379B00D8E0C9 /* ip67-Livraria */,
 				58CD10E51E87379B00D8E0C9 /* Products */,
+				58CD10FC1E873F5E00D8E0C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +75,16 @@
 				58CD10F31E87379B00D8E0C9 /* Info.plist */,
 			);
 			path = "ip67-Livraria";
+			sourceTree = "<group>";
+		};
+		58CD10FC1E873F5E00D8E0C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58CD10FD1E873F5E00D8E0C9 /* Alamofire.framework */,
+				58CD10FE1E873F5E00D8E0C9 /* AlamofireObjectMapper.framework */,
+				58CD10FF1E873F5E00D8E0C9 /* ObjectMapper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +150,7 @@
 				58CD10F21E87379B00D8E0C9 /* LaunchScreen.storyboard in Resources */,
 				58CD10EF1E87379B00D8E0C9 /* Assets.xcassets in Resources */,
 				58CD10ED1E87379B00D8E0C9 /* Main.storyboard in Resources */,
+				58CD10FA1E8738BA00D8E0C9 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +286,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K7WGQE7296;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "ip67-Livraria/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.ip67-Livraria";
@@ -275,6 +303,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K7WGQE7296;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "ip67-Livraria/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caelum.ip67-Livraria";
